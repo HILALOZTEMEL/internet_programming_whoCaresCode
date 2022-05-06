@@ -1,0 +1,155 @@
+.home{
+  background-color: black; 
+  height: 100%;
+  width: 100%;
+  column-count: 2;
+  align-content: center;
+
+}
+
+.home .container{  
+  width: 50%;
+  display: inline;
+  
+  }
+.home .container .home-img img{
+  margin-top:50%;
+  margin-left: 20%;
+
+} 
+.home .container button{ 
+  margin-left  :30%;
+}
+
+.home-text >h1{
+  text-shadow: 2px 2px blue;
+  font-size: 230%;
+  font-style:bold;
+  font-family: "Times New Roman", Times, serif;                  
+  margin-bottom: 55px; 
+  margin-top: 80px;  
+  color: #fff;   
+  margin-left:30%;
+  margin-top: 30%; 
+}
+.home-text >p{
+  font-size: 120%;
+  font-family: Georgia, serif;  
+  font-style:bold;                
+  margin-bottom: 55px; 
+  margin-top: 80px;  
+  color: #fff;   
+  margin-left:30% ;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  
+}
+body .row{
+    padding:50px 0;
+    margin:0 auto;
+    text-align:center; 
+    align-self: center;
+    display: flex;    
+}
+.aboutme{
+ 
+  align-self: center; 
+  padding: 50px  auto; 
+  width: 50%;
+  margin:0 auto;
+  display: inline-block;
+}
+
+.aboutme img{ border-radius: 70%;height: 300px;width: 250px;object-fit: cover; margin-top: 80px;}
+
+
+p ,li,ol ,table{ 
+  font-size: 100%;
+  font-style:bold;
+  font-family: 'Open Sans', sans-serif;
+  color: black;                                                   
+}  
+h5{ 
+  font-size: 100%;
+  font-style:bold;
+  margin-right: 25%;                   
+}            
+
+body .row .aboutme .first
+{  
+  width: 20%;
+  float: left;  
+}
+
+body .row .aboutme .second
+{
+  margin-top: 25px;
+  margin-left: 30%;
+  width: 50%;
+  float: left; 
+}
+.card{
+
+  width: 100%;
+  margin: 20 0;
+  text-align: left;
+
+ 
+}
+
+.card-horizontal {
+ 
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.img-square-wrapper img{
+  width: 80px;
+  height: 80px;
+}
+.Areas{
+  text-align: left;
+  
+}
+
+th, td {
+  padding: 10px;
+}
+.mb-4 {
+  margin-bottom: 1.5rem!important;
+}
+:after, :before {
+  box-sizing: border-box;
+}
+.bg-light {
+  --mdb-bg-opacity: 1;
+  background-color: rgba(var(--mdb-light-rgb),var(--mdb-bg-opacity))!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+.bg-white {
+  --mdb-bg-opacity: 1;
+  background-color: rgba(var(--mdb-white-rgb),var(--mdb-bg-opacity))!important;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+
+  
+  
+
+  
+
+
+
+  
+  
